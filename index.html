@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Contato</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Formulário de contato</h1>
+      <form class="contato" action="" method="" id="contato">
+        <label>
+          <span>Nome:</span>
+              <input type="text" class="pai nome" name="nome" id="name" placeholder="Digite seu nome" required=""/>
+        </label>
+
+        <br />
+        <label>
+          <span>Sobrenome:</span>
+              <input type="text" class="pai sobrenome" name="Endereço" id="Endereço" placeholder="Digite seu sobrenome" />
+        </label>
+      <br/>
+      <label>
+        <span>CEP:</span>
+            <input type="number" class="pai cep" name="CEP" placeholder="Digite seu CEP"  />
+      </label>
+<br/>
+      <label>
+          <span>Endereço:</span>
+            <input type="text" class="pai endereco" name="Endereço" id="nome" placeholder="Digite seu Endereço" />
+        </label>
+      
+      <br/>
+
+      <label>
+          <span>Data de nascimento:</span>
+             <input type="date" class="pai nascimento" name="nasc" id="nasc" placeholder="" />
+        </label>
+      
+      <br/>
+
+
+      <label>
+          <span>Senha</span>
+              <input type="password" class="pai senha" name="senha" id="senha" placeholder="senha" />
+        </label>
+      
+      <br/>
+
+      <label>
+          <span>Repita a senha:</span>
+              <input type="password" class="pai resenha" nome="resenha" id="resenha" placeholder="Confirme sua senha"/>
+        </label>
+      
+      <br/>
+
+      <label>
+          <span>CPF:</span>
+              <input type="number" class="pai cpf" name="cpf" id="cpf" placeholder="Digite seu CPF" />
+        </label>
+      
+      <br/>
+
+      <label>
+          <span>RG:</span>
+              <input type="number" class="pai rg" nome="rg" id="rg" placeholder="Digite seu RG" />
+        </label>
+      
+      <br/>
+
+      <label>
+          <span>Sexo:</span>
+          <br/>
+                <input type="radio" name="genero" value="Homem"> Homem<br>
+                <input type="radio" name="genero" value="Muher"> Mulher<br>
+                <input type="radio" name="genero" value="Outro"> Outro
+        </label>
+      
+      <br/>
+
+        <label>
+          <span>Celular:</span>
+          <input type="tel" class="pai celular" name="celular" id="celular" placeholder="Digite seu celular" required=""/>
+        </label>
+
+        <br />
+
+        <label>
+          <span>Email:</span>
+          <input type="email" class="pai email" name="email" id="email" placeholder="Digite seu email" required=""/>
+        </label>
+
+        <br />
+
+        <label>
+          <span>Assunto:</span>
+          <input type="text" class="pai assunto" name="assunto" id="subject" placeholder="Digite o assunto" required="">
+        </label>
+
+        <br />
+
+        <label>
+          <span>Mensagem:</span>
+          <textarea class="pai message" name="feedback" id="feedback" placeholder="Digite a mensagem" required=""></textarea>
+          <br />
+          <input type="submit" class="button" value="Enviar" />
+          <input type="submit" class="reset" value="Reset" />
+        </label>
+      </form>
+    </section>
+  </body>
+</html>
