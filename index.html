@@ -7,107 +7,126 @@
   </head>
 
   <body>
+      <h1>Formulário de contato
+      </h1>
     <section class="container">
-      <h1>Formulário de contato</h1>
-      <form class="contato" action="" method="" id="contato">
-        <label>
-          <span>Nome:</span>
-              <input type="text" class="pai nome" name="nome" id="name" placeholder="Digite seu nome" required=""/>
-        </label>
+          <form class="contato" action="" method="" id="contato">
+            <div class="labels">
+            <span>
+              <label>
+                  Nome:
+                </label>            
+            </span>
 
-        <br />
-        <label>
-          <span>Sobrenome:</span>
-              <input type="text" class="pai sobrenome" name="Endereço" id="Endereço" placeholder="Digite seu sobrenome" />
-        </label>
-      <br/>
-      <label>
-        <span>CEP:</span>
-            <input type="number" class="pai cep" name="CEP" placeholder="Digite seu CEP"  />
-      </label>
+<br />
+            <label>
+              <span>
+                  Sobrenome:
+              </span>
+            </label>
 <br/>
-      <label>
-          <span>Endereço:</span>
-            <input type="text" class="pai endereco" name="Endereço" id="nome" placeholder="Digite seu Endereço" />
-        </label>
-      
-      <br/>
+          <label>
+            <span>CEP:</span>
+          </label>
+<br/>
 
-      <label>
-          <span>Data de nascimento:</span>
-             <input type="date" class="pai nascimento" name="nasc" id="nasc" placeholder="" />
-        </label>
-      
-      <br/>
+          <label>
+              <span>Endereço:</span>
+          </label>
+          
+<br/>
+
+          <label>
+              <span>Data de nascimento:</span>
+            </label>
+          
+<br/>
+          <label>
+              <span>Senha:</span>           
+          </label>
+          
+<br/>
+            <label>
+              <span>Repita a senha:</span>
+            </label>
+          
+<br/>
+
+            <label>
+              <span>CPF:</span>
+            </label>
+          
+<br/>
+
+          <label>
+              <span>RG:</span>
+          </label>
+          
+<br/>
+<br />
 
 
-      <label>
-          <span>Senha</span>
-              <input type="password" class="pai senha" name="senha" id="senha" placeholder="senha" />
-        </label>
-      
-      <br/>
+          <label>
+              <span>Sexo:</span><br />
 
-      <label>
-          <span>Repita a senha:</span>
-              <input type="password" class="pai resenha" nome="resenha" id="resenha" placeholder="Confirme sua senha"/>
-        </label>
-      
-      <br/>
+                    <input type="radio" class="pai sexo" name="genero" value="Homem"> Homem <br/>
+                    <input type="radio" class="pai sexo" name="genero" value="Muher"> Mulher <br/>
+                    <input type="radio" class="pai sexo" name="genero" value="Outro"> Outro <br/>
+            </label>
+          
+<br/>
+            <label>
+              <span>Celular:</span>
+            </label>
 
-      <label>
-          <span>CPF:</span>
-              <input type="number" class="pai cpf" name="cpf" id="cpf" placeholder="Digite seu CPF" />
-        </label>
-      
-      <br/>
+<br />
 
-      <label>
-          <span>RG:</span>
-              <input type="number" class="pai rg" nome="rg" id="rg" placeholder="Digite seu RG" />
-        </label>
-      
-      <br/>
 
-      <label>
-          <span>Sexo:</span>
-          <br/>
-                <input type="radio" name="genero" value="Homem"> Homem<br>
-                <input type="radio" name="genero" value="Muher"> Mulher<br>
-                <input type="radio" name="genero" value="Outro"> Outro
-        </label>
-      
-      <br/>
+            <label>
+              <span>Email:</span>
+            </label>
 
-        <label>
-          <span>Celular:</span>
-          <input type="tel" class="pai celular" name="celular" id="celular" placeholder="Digite seu celular" required=""/>
-        </label>
+<br />
 
-        <br />
+            <label>
+              <span>Assunto:</span>
+             </label>
 
-        <label>
-          <span>Email:</span>
-          <input type="email" class="pai email" name="email" id="email" placeholder="Digite seu email" required=""/>
-        </label>
+<br />
 
-        <br />
-
-        <label>
-          <span>Assunto:</span>
-          <input type="text" class="pai assunto" name="assunto" id="subject" placeholder="Digite o assunto" required="">
-        </label>
-
-        <br />
-
-        <label>
-          <span>Mensagem:</span>
-          <textarea class="pai message" name="feedback" id="feedback" placeholder="Digite a mensagem" required=""></textarea>
-          <br />
-          <input type="submit" class="button" value="Enviar" />
-          <input type="submit" class="reset" value="Reset" />
-        </label>
-      </form>
+            <label>
+              <span>Mensagem:</span>
+            </label>
+<br />
+</div>
+              <div class="inputs">
+                <input type="text" class="pai nome" name="nome" id="name" placeholder="Digite seu nome" required=""/>
+                <input type="text" class="pai sobrenome" name="Endereço" id="Endereço" placeholder="Digite seu sobrenome" />
+                <input type="number" class="pai cep" name="CEP" placeholder="Digite seu CEP"  />
+                <input type="text" class="pai endereco" name="Endereço" id="nome" placeholder="Digite seu Endereço" />
+                
+                 <input type="date" class="pai nascimento" name="nasc" id="nasc" placeholder="" />
+                 <input type="password" class="pai senha" name="senha" id="senha" placeholder="senha" />
+                 <input type="password" class="pai resenha" nome="resenha" id="resenha" placeholder="Confirme sua senha"/>
+                 <input type="number" class="pai cpf" name="cpf" id="cpf" placeholder="Digite seu CPF" />
+                 <input type="number" class="pai rg" nome="rg" id="rg" placeholder="Digite seu RG" />
+<br />
+<br />
+<br />
+<br />
+                 <input type="tel" class="pai celular" name="celular" id="celular" placeholder="Digite seu celular" required=""/>
+                  <input type="email" class="pai email" name="email" id="email" placeholder="Digite seu email" required=""/>
+                  <input type="text" class="pai assunto" name="assunto" id="subject" placeholder="Digite o assunto" required="">
+                  <textarea class="pai message" name="feedback" id="feedback" placeholder="Digite a mensagem" required=""></textarea>
+              </div>
+              
+<br />
+            </label>
+          </form>
+          <div class="buttons">
+              <input type="submit" class="dad button" value="Enviar" />
+              <input type="submit" class="dad reset" value="Reset" />
+          </div>
     </section>
   </body>
 </html>
